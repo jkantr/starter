@@ -5,7 +5,8 @@ import { createServer } from "http";
 import { makeApp, getShutdownActions } from "./app";
 import { UserPatch } from "@app/graphql";
 
-const _userPatchTest: UserPatch = { username: 'broken' };
+const _userPatchTest: UserPatch = { username: "broken" };
+console.log(_userPatchTest);
 
 // @ts-ignore
 const packageJson = require("../../../package.json");
