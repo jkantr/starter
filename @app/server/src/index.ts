@@ -3,6 +3,9 @@
 import chalk from "chalk";
 import { createServer } from "http";
 import { makeApp, getShutdownActions } from "./app";
+import { UserPatch } from "@app/graphql";
+
+const _userPatchTest: UserPatch = { username: 'broken' };
 
 // @ts-ignore
 const packageJson = require("../../../package.json");
