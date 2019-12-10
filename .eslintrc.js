@@ -114,6 +114,7 @@ module.exports = {
     ],
     "react/destructuring-assignment": 0,
 
+    "semi": 2,
     "arrow-body-style": 0,
     "no-nested-ternary": 0,
   },
